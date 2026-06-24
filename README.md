@@ -1,4 +1,4 @@
-# 🏥 Medical Center API
+# 🏥 Centro Medico API
 
 > **Una API REST robusta y optimizada para la gestión eficiente de turnos médicos y agendas clínicas.**
 
@@ -9,7 +9,7 @@
 
 ## 📖 Descripción
 
-**Medical Center API** es un backend diseñado para resolver las complejas reglas de negocio que demanda un sistema de salud real. La aplicación automatiza el agendamiento de citas, previene conflictos de horarios en la agenda de los profesionales y optimiza las consultas a la base de datos pensando en un alto rendimiento para el cliente frontend.
+**Centro Medico API** es un backend diseñado para resolver las complejas reglas de negocio que demanda un sistema de salud real. La aplicación automatiza el agendamiento de citas, previene conflictos de horarios en la agenda de los profesionales y optimiza las consultas a la base de datos pensando en un alto rendimiento para el cliente frontend.
 
 ### 🚀 Funcionalidades y Reglas de Negocio Críticas
 
@@ -61,8 +61,8 @@ Sigue estos pasos para clonar y ejecutar el servidor de desarrollo localmente:
 
 1. **Clonar el repositorio:**
   ```bash
-  git clone [https://github.com/RedBoth/medical-center-api.git](https://github.com/RedBoth/medical-center-api.git)
-  cd medical-center-api
+  git clone [https://github.com/RedBoth/centro-medico-api.git](https://github.com/RedBoth/centro-medico-api.git)
+  cd centro-medico-api
   ```
 
 2. **Crear e inicializar entorno virtual**
