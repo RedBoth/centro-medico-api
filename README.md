@@ -59,50 +59,52 @@ Sigue estos pasos para clonar y ejecutar el servidor de desarrollo localmente:
 
 ### Pasos
 
-1. **Clonar el repositorio:**
-  ```bash
-  git clone [https://github.com/RedBoth/centro-medico-api.git](https://github.com/RedBoth/centro-medico-api.git)
-  cd centro-medico-api
-  ```
+1.  **Clonar el repositorio:**
+    ```bash
+    git clone https://github.com/RedBoth/centro-medico-api.git
+    cd centro-medico-api
+    ```
 
-2. **Crear e inicializar entorno virtual**
-  ```bash
-  # Crear entorno
-  python -m venv venv --without-pip
+2.  **Crear e inicializar entorno virtual**
+    ```bash
+    # Crear entorno
+    python -m venv venv --without-pip
 
-  # Activar en Windows (PowerShell)
-  .\venv\Scripts\Activate.ps1
+    # Activar en Windows (PowerShell)
+    .\venv\Scripts\Activate.ps1
 
-  # Activar en Mac/Linux
-  source venv/bin/activate
-  ```
+    # Activar en Mac/Linux
+    source venv/bin/activate
+    ```
 
-3. **Instalar dependencias y gestor de paquetes**
-  ```bash
-  python -m ensurepip --default-pip
-  pip install -r requirements.txt
-  ```
+3.  **Instalar dependencias y gestor de paquetes**
+    ```bash
+    python -m ensurepip --default-pip
+    pip install -r requirements.txt
+    ```
 
-4. **Ejecutar las migraciones**
-  ```bash
-  python manage.py migrate
-  ```
+4.  **Ejecutar las migraciones**
+    ```bash
+    python manage.py migrate
+    ```
 
-5. **Crear cuenta administrador**
-  ```bash
-  python manage.py createsuperuser
-  ```
+5.  **Crear cuenta administrador**
+    ```bash
+    python manage.py createsuperuser
+    ```
 
-6. **Ejecutar el servidor**
-  ```bash
-  python manage.py runserver
-  ```
+6.  **Ejecutar el servidor**
+    ```bash
+    python manage.py runserver
+    #El servidor estará disponible en: http://127.0.0.1:8000/ 
+    #Y el panel de control en http://127.0.0.1:8000/admin/
+    ```
 
 ---
 
 ## 🤝 Contribución
 
-¡Las contribuciones son bienvenidas! Si deseas mejorar Campo-app:
+¡Las contribuciones son bienvenidas! Si deseas mejorar esta API:
 
 1.  Haz un Fork del proyecto.
 2.  Crea una rama para tu funcionalidad (`git checkout -b feature/nueva-funcionalidad`).
